@@ -54,6 +54,7 @@
 }
 .container {
   padding: 0px 20px;
+  grid-template-columns: 1fr 1fr;
 }
 .card {
   display: flex;

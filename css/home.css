@@ -80,7 +80,7 @@
 .practicalinfosection img {
   width: 100%;
   height: auto;
-  max-with: 100%;
+  max-width: 100%;
 }
 .informationdiv {
   display: flex;
@@ -152,7 +152,7 @@ td {
 .accessibilitysection img {
   width: 100%;
   height: auto;
-  max-with: 100%;
+  max-width: 100%;
 }
 
 @media (min-width: 768px) {
