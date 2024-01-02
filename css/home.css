@@ -1,0 +1,214 @@
+@import url("./styles.css");
+
+.herosection {
+  grid-column: 2;
+  grid-row: 1;
+  padding: 8px;
+}
+.herosection h2 {
+  font-size: 20px;
+  margin: 40px 20px 0px 20px;
+}
+.herosection p {
+  font-size: 12px;
+  margin: 7px 20px 30px 20px;
+}
+.herosection img {
+  width: 100%;
+  height: auto;
+  max-width: 959px;
+  max-height: 700px;
+}
+@media (min-width: 768px) {
+  .herosection {
+    margin-top: 70px;
+    font-size: 16px;
+  }
+  .herosection h2 {
+    font-size: 25px;
+    margin: 60px 0px 0px 0px;
+  }
+  .herosection p {
+    font-size: 16px;
+    margin: 11px 0px 50px 0px;
+  }
+}
+
+.exhibitionssection {
+  grid-row: 2;
+  grid-column: 2;
+}
+.exhibitionsdiv {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 16px;
+}
+.exhibitionsoverview {
+  display: flex;
+  flex-direction: column;
+}
+.exhibitionsoverview a {
+  text-decoration: none;
+  color: var(--main-gray);
+}
+.exhibitionsoverview a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 768px) {
+  .exhibitionssection {
+    margin: 0px 30px;
+  }
+  .exhibitionsdiv {
+    justify-content: start;
+    margin-left: 100px;
+    font-size: 25px;
+  }
+  .ourexhibitions {
+    margin-right: 60px;
+  }
+}
+
+.practicalinfosection {
+  grid-row: 3;
+  grid-column: 2;
+}
+.practicalinfosection h3 {
+  font-size: 12px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+.practicalinfosection img {
+  width: 100%;
+  height: auto;
+  max-with: 100%;
+}
+.informationdiv {
+  display: flex;
+  flex-direction: column;
+}
+.location p {
+  font-size: 16px;
+}
+th,
+td {
+  padding-right: 30px;
+}
+.tdright {
+  text-align: right;
+}
+.openinghours td {
+  font-size: 16px;
+}
+.openinghours p {
+  font-size: 12px;
+  color: var(--main-gray);
+}
+.admission p {
+  font-size: 12px;
+  color: var(--main-gray);
+}
+@media (min-width: 768px) {
+  .practicalinfosection h3 {
+    font-size: 16px;
+    margin-left: 143px;
+  }
+  .practicalinfosection img {
+    width: auto;
+    max-height: 538px;
+  }
+  .informationdiv {
+    max-width: 300px;
+    padding-left: 40px;
+  }
+  .location p {
+    font-size: 20px;
+  }
+  .openinghours td {
+    font-size: 20px;
+  }
+  .openinghours p {
+    font-size: 13px;
+  }
+  .admission td {
+    font-size: 20px;
+  }
+  .admission p {
+    font-size: 13px;
+  }
+}
+
+.accessibilitysection {
+  grid-row: 4;
+  grid-column: 2;
+}
+.accessibilitysection h3 {
+  font-size: 12px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+.accessibility p {
+  font-size: 16px;
+}
+.accessibilitysection img {
+  width: 100%;
+  height: auto;
+  max-with: 100%;
+}
+
+@media (min-width: 768px) {
+  .accessibilitysection h3 {
+    font-size: 16px;
+    margin-left: 155px;
+  }
+  .accessibilitysection img {
+    width: auto;
+    max-height: 538px;
+  }
+  .accessibility p {
+    font-size: 20px;
+  }
+}
+
+.container {
+  margin: 0px 8px;
+}
+.card {
+  background-color: var(--main-white);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px 25px 15px;
+}
+.imgdesktop {
+  display: none;
+}
+.imgphone {
+  display: block;
+}
+h4 {
+  margin-top: 20px;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 50px;
+    justify-content: center;
+  }
+  .card {
+    flex-direction: column;
+    max-width: 330px;
+  }
+  h4 {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+  .imgdesktop {
+    display: block;
+  }
+  .imgphone {
+    display: none;
+  }
+}
