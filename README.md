@@ -34,5 +34,6 @@ Open your browser and run using localhost
 
 
 
-# community-science-museum-SP1
+# community-science-museum-SP1<img width="697" alt="Screenshot 2024-06-05 at 19 04 30" src="https://github.com/DanielSan-01/community-science-museum-SP1/assets/98233180/b777dad4-91dc-4957-97c0-edcb135ed871">
+
  https://danielsan-01.github.io/community-science-museum-SP1/
