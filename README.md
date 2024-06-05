@@ -1,13 +1,4 @@
 Community Science Museum Website - Frontend Project
-Table of Contents
-
-    Project Overview
-    Features
-    Technologies Used
-    Setup Instructions
-    Project Structure
-    Contributing
-    License
 
 Project Overview
 
